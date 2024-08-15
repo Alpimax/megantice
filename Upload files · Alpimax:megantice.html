@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Megan Tice - Interior Designer">
+    <title>Megan Tice - Interior Designer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #e0f2f1; /* Light matte green background */
+        }
+        header {
+            background: #004d40; /* Dark matte green */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #a7ffeb; /* Light teal */
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s, border-bottom 0.3s;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: #fff;
+            border-bottom: 2px solid #a7ffeb; /* Light teal underline */
+        }
+        section.hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 120px 20px;
+            background-blur: 10px;
+        }
+        section.hero h2 {
+            font-size: 3.2em;
+            margin: 0;
+            line-height: 1.2;
+        }
+        section.hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            margin: auto;
+        }
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #004d40; /* Dark matte green */
+        }
+        section p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .portfolio-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .portfolio-item {
+            flex: 1 1 calc(33% - 40px);
+            max-width: calc(33% - 40px);
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: opacity 0.3s;
+        }
+        .portfolio-item:hover img {
+            opacity: 0.8;
+        }
+        .portfolio-item::before {
+            content: 'View Project';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 1.5em;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .portfolio-item:hover::before {
+            opacity: 1;
+        }
+        footer {
+            background: #004d40; /* Dark matte green */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer a {
+            color: #a7ffeb; /* Light teal */
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Megan Tice</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Designing Your Dream Space</h2>
+    <p>Transforming interiors into personalized havens with elegance and functionality.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Megan Tice, an experienced interior designer dedicated to creating beautiful and functional spaces. With over 20 years of experience, I blend creativity with practicality to craft environments that reflect your unique style and enhance your daily life.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-gallery">
+        <div class="portfolio-item">
+            <img src="portfolio1.jpg" alt="Living Room Design">
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio2.jpg" alt="Modern Kitchen">
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio3.jpg" alt="Cozy Bedroom">
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Ready to start your design journey? Contact me to discuss your project and bring your vision to life.</p>
+    <p>Email: <a href=mailto:megan@megticedesign.com>megan@megticedesign.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Megan Tice Interior Design. All rights reserved.</p>
+    <p>Follow me on <a href=https://instagram.com/megan_tice>Instagram</a></p>
+</footer>
+
+</body>
+</html>
+
+ALPER OZKAN
+SDET II | Orlando
+
+
+<image001.png>
+
+    Internal - Intellectual Property
